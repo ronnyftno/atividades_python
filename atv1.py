@@ -129,4 +129,5 @@ velocidadereal = velocidade / 8
 tempo = arquivo/velocidadereal
 minutos = int(tempo // 60) 
 segundos = int(tempo % 60)
-print(f"O tempo aproximado de Download será de: {minutos} minutos e {segundos} segundos")
+print(f"O tempo aproximado de Download será de: {minutos} minutos e \
+      {segundos} segundos")
