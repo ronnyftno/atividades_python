@@ -510,7 +510,8 @@ if peso_total > 8 or preco_total > 25:
     preco_total = preco_total * 0.90
 
 print(f"Valor a pagar: R$ {preco_total:.2f}")
-======================================================================================================================================="""
+=======================================================================================================================================
+28 tipo = int(input("Escolha o tipo de carne (1-File Duplo, 2-Alcatra, 3-Picanha): "))
 tipo = int(input("Escolha o tipo de carne (1-File Duplo, 2-Alcatra, 3-Picanha): "))
 quantidade = float(input("Quantidade de carne (Kg): "))
 cartao = input("Compra no cartão Tabajara? (S/N): ").upper()
